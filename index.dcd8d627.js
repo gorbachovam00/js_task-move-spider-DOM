@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var t=document.querySelector(".wall"),e=document.querySelector(".spider");t.addEventListener("click",function(i){var n=t.getBoundingClientRect(),o=e.getBoundingClientRect(),c=o.width/2,d=o.height/2,h=i.clientX-n.left,l=i.clientY-n.top,u=h-c-10,a=l-d-10;u<0&&(u=0),a<0&&(a=0),u+o.width>n.width-20&&(u=n.width-o.width-20),a+o.height>n.height-20&&(a=n.height-o.height-20),e.style.position="absolute",e.style.left="".concat(u,"px"),e.style.top="".concat(a,"px")})});
+//# sourceMappingURL=index.dcd8d627.js.map
